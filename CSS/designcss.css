@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    margin: 3px;
+}
+/*navigation bar decoration*/
+nav{
+    background-color: green;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 30px;
+    /*margin: 10px;*/
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px 0 20px;
+    padding: 7px 15px 7px 15px;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: lightgray;
+}
+.sect-1{
+    background-color: white;
+    margin: 20px;
+    padding: 70px;
+}
+.sect-1 .head1{
+    background-color: grey;text-align: center;color: #f2f2f2; border-radius: 4px; padding: 10px;
+    margin: 0 0px 4% 25%; width: 50%;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {background-color: darkblue;}
+    to {background-color: red;}
+}
+.sect-1 img{
+    margin: 5px;
+    padding: 20px;
+}
+.sect-1 p{
+
+    margin: 10px;
+}
+.sect-1 ul{
+    margin-left: 50px;
+}
+
+/*form css*/
+
+input[type=text], select, textarea {
+    width: 20%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.sect-2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 25%;
+    width: 50%;
+    border: solid 2px;
+}
+.sect-2 h2{
+    margin: 15px;
+    text-align: center;
+    background-color: powderblue;
+    padding: 5px;
+    border-radius: 4px;
+    width: 80%;
+}
+/*our team*/
+/*our team*/
+.ourteam{
+    padding: 3rem;
+    color: white;
+    height: 51rem;
+    width: 80%;
+    margin: 2% 12%;
+    border-radius: 20px;
+    /*background-color: lightcyan;*/
+}
+.ourteam h1{
+    text-align: center;
+    width: 40%;
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-left: 20%;
+}
+.ourteam .team{
+    margin: 1rem;
+    background-color: dimgrey;
+    border-radius: 10px;
+    width: 36%;
+    padding: 5px;
+    float: left;
+}
+.ourteam .team img{
+    width: 150px;
+    height: 160px;
+    border-radius: 10rem;
+    float: left;
+    margin-right: 5px;
+}
+.ourteam .team .desc{
+    padding-top: 5rem;
+}
+.ourteam .team .desc h3{
+    margin-bottom: 5px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px 3px;
+}
+.fa-facebook {
+    color: white;
+}
+.fa-twitter {
+    color: white;
+}
